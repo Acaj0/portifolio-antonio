@@ -13,11 +13,14 @@ export default function Home() {
           aplicações em Next.js
         </span>
         <div className="flex flex-row mt-10 gap-10">
-          <button className="outline p-2 hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black rounded text-xl">
+          <button className="outline p-2 hover:bg-black hover:text-white dark:hover:bg-white transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 dark:hover:text-black rounded text-xl">
             Currículo
           </button>
           <div className="w-10 flex items-center gap-0">
-            <a href="https://github.com/Acaj0">
+            <a
+              className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
+              href="https://github.com/Acaj0"
+            >
               <Image
                 className="dark:hidden"
                 alt="github"
@@ -26,7 +29,10 @@ export default function Home() {
                 height={100}
               ></Image>
             </a>
-            <a href="https://github.com/Acaj0">
+            <a
+              className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
+              href="https://github.com/Acaj0"
+            >
               <Image
                 className="hidden dark:flex"
                 alt="github"
@@ -37,7 +43,10 @@ export default function Home() {
             </a>
           </div>
           <div className="w-10 flex items-center gap-0">
-            <a href="https://www.linkedin.com/in/acaj0/">
+            <a
+              className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
+              href="https://www.linkedin.com/in/acaj0/"
+            >
               <Image
                 className="dark:hidden"
                 alt="linkedin"
@@ -46,7 +55,10 @@ export default function Home() {
                 height={100}
               ></Image>
             </a>
-            <a href="https://www.linkedin.com/in/acaj0/">
+            <a
+              className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
+              href="https://www.linkedin.com/in/acaj0/"
+            >
               <Image
                 className="hidden dark:flex"
                 alt="linkedin"
