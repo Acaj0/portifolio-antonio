@@ -8,17 +8,17 @@ export default function Home() {
       <div className="mx-36 flex mt-28 flex-col">
         <h1 className="text-4xl">Antonio Carlos de Abreu Junior</h1>
         <span className=" mt-8 text-wrap text-left w-[650px]">
-          Eu sou estudante da área de Sistema de informação, apaixonado por
-          musica e tecnologia,atualmente estou aprendendo e desenvolvendo
+          Eu sou estudante de Sistema de informação, sou apaixonado por
+          musica e tecnologia, atualmente estou aprendendo e desenvolvendo
           aplicações em Next.js
         </span>
-        <div className="flex flex-row mt-10 gap-10">
-          <button className="outline p-2 hover:bg-black hover:text-white dark:hover:bg-white transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 dark:hover:text-black rounded text-xl">
+        <div className="flex flex-row mt-10 gap-10 text-center items-center ">
+          <a className="h-9 outline px-4 text-center flex items-center hover:bg-black hover:text-white dark:hover:bg-white transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 dark:hover:text-black rounded text-xl">
             Currículo
-          </button>
+          </a>
           <div className="w-10 flex items-center gap-0">
             <a
-              className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
+              className="transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-100"
               href="https://github.com/Acaj0"
             >
               <Image
@@ -30,7 +30,7 @@ export default function Home() {
               ></Image>
             </a>
             <a
-              className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
+              className="transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-100"
               href="https://github.com/Acaj0"
             >
               <Image
@@ -44,7 +44,7 @@ export default function Home() {
           </div>
           <div className="w-10 flex items-center gap-0">
             <a
-              className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
+              className="transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-100"
               href="https://www.linkedin.com/in/acaj0/"
             >
               <Image
@@ -56,7 +56,7 @@ export default function Home() {
               ></Image>
             </a>
             <a
-              className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
+              className="transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-100"
               href="https://www.linkedin.com/in/acaj0/"
             >
               <Image
