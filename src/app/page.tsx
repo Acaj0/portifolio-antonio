@@ -13,7 +13,7 @@ export default function Home() {
           aplicações em Next.js
         </span>
         <div className="flex flex-row mt-10 gap-10 text-center items-center ">
-          <a className="h-9 outline px-4 text-center flex items-center hover:bg-black hover:text-white dark:hover:bg-white transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 dark:hover:text-black rounded text-xl">
+          <a className="cursor-pointer h-9 outline px-4 text-center flex items-center hover:bg-black hover:text-white dark:hover:bg-white transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-300 dark:hover:text-black rounded text-xl">
             Currículo
           </a>
           <div className="w-10 flex items-center gap-0">
