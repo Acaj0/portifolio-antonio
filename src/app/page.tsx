@@ -8,13 +8,13 @@ export default function Home() {
       <div className="lg:mx-36 mx-2 flex mt-28 flex-col">
         <div className=" flex lg:flex-row flex-col min-w-fill">
           <div className=" flex flex-col">
-            <h1 className="text-5xl">Antonio Carlos de Abreu Junior</h1>
-            <span className=" mt-8 text-wrap text-left text-2xl lg:min-w-fit">
+            <h1 className="text-5xl md:text-left text-center">Antonio Carlos de Abreu Junior</h1>
+            <span className=" mt-8 text-wrap text-center md:text-left text-2xl lg:min-w-fit">
               Eu sou estudante de Sistema de informação, sou apaixonado por
               musica e tecnologia, atualmente estou aprendendo e desenvolvendo
               aplicações em Next.js
             </span>
-            <div className="flex flex-row mt-10 gap-10 text-center items-center ">
+            <div className="flex flex-row mt-10 gap-10 text-center items-center md:justify-start justify-center">
               <a className="cursor-pointer h-9 outline px-4 text-center flex items-center hover:bg-black hover:text-white dark:hover:bg-white transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-300 dark:hover:text-black rounded text-xl">
                 Currículo
               </a>
