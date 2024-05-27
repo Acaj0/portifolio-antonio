@@ -77,7 +77,7 @@ export default function Home() {
             <Image
               className="rounded-full border-4 border-black/70 dark:border-white/80"
               alt="foto"
-              src={"/antonio2.JPEG"}
+              src={"/antonio2.jpeg"}
               width={250}
               height={100}
             ></Image>
