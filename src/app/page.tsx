@@ -6,11 +6,11 @@ export default function Home() {
   return (
     <div>
       <NavBar></NavBar>
-      <div className="lg:mx-36 mx-2 flex mt-28 flex-col">
+      <div className="lg:mx-36 mx-2 flex mt-20 flex-col">
         <div className=" flex lg:flex-row flex-col min-w-fill">
           <div className=" flex flex-col">
             <h1 className="text-5xl md:text-left text-center">Antonio Carlos de Abreu Junior</h1>
-            <span className=" mt-8 text-wrap text-center md:text-left text-2xl lg:min-w-fit">
+            <span className=" mt-4 text-wrap text-center md:text-left text-2xl lg:min-w-fit">
               Eu sou estudante de Sistema de informação, sou apaixonado por
               musica e tecnologia, atualmente estou aprendendo e desenvolvendo
               aplicações em Next.js
