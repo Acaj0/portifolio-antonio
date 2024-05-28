@@ -138,8 +138,41 @@ export default function Home() {
                     </div>
                   </div>
                 </CarouselItem>
-                <CarouselItem className="">...</CarouselItem>
-                <CarouselItem className="">...</CarouselItem>
+                <CarouselItem className="">
+                  {" "}
+                  <div className="border rounded-lg min-w-full min-h-96 p-1 gap-2 flex flex-col 2xl:flex-row items-center justify-center">
+                    <div className="relative text-center">
+                      <Image
+                        className="blur p-2"
+                        alt="foto"
+                        src={"/diario.png"}
+                        width={600}
+                        height={500}
+                      ></Image>
+                      <div className="min-w-full h-full absolute top-0 left-0 text-center justify-center flex items-center bg-black/15 rounded ">
+                        <a
+                          target="_blank"
+                          className="transition hover:underline"
+                          href="https://diario-alerta.vercel.app"
+                        >
+                          Diario Alerta
+                        </a>
+                      </div>
+                    </div>
+                    <div className="max-w-96 items-center justify-center flex flex-col p-4">
+                      <h2 className="text-lg text-start text-wrap">
+                        O Diário Alerta é um aplicativo que oferece a
+                        tranquilidade de monitorar se o seu CPF ou CNPJ foi
+                        mencionado no Diário Oficial da União. Com uma interface
+                        intuitiva, você pode cadastrar seus documentos e receber
+                        notificações instantâneas sempre que houver uma citação
+                        relevante para você.
+                      </h2>
+                      <a className="mt-4 text-lg text-center">Saiba Mais...</a>
+                    </div>
+                  </div>
+                </CarouselItem>
+                <CarouselItem>...</CarouselItem>
               </CarouselContent>
               <CarouselPrevious />
               <CarouselNext />
