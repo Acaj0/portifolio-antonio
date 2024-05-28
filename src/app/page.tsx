@@ -106,7 +106,7 @@ export default function Home() {
           <h2>Favoritos</h2>
           <div className="min-w-full px-24 mt-24 2xl:mt-10 h-96 gap-1 rounded-full items-center justify-center flex">
             <Carousel className="min-w-full">
-              <CarouselContent className="gap-5 p-10">
+              <CarouselContent className="">
                 <CarouselItem className="">
                   <div className="border rounded-lg min-w-full min-h-96 p-1 gap-2 flex flex-col 2xl:flex-row items-center justify-center">
                     <div className="relative text-center">
@@ -172,7 +172,6 @@ export default function Home() {
                     </div>
                   </div>
                 </CarouselItem>
-                <CarouselItem>...</CarouselItem>
               </CarouselContent>
               <CarouselPrevious />
               <CarouselNext />
