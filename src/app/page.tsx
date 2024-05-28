@@ -91,7 +91,7 @@ export default function Home() {
               <div className=""></div>
             </div>
           </div>
-          <div className="items-center flex justify-center lg:justify-center mt-4 container mx-auto">
+          <div className="items-center flex justify-center lg:justify-center mt-24 lg:mt-4 container mx-auto">
             <Image
               className="rounded-full border-4 border-black/70 dark:border-white/80"
               alt="foto"
@@ -102,16 +102,16 @@ export default function Home() {
           </div>
         </div>
         <Separator className="mt-36" />
-        <div className="text-4xl text-center items-center justify-center flex flex-col mt-10">
+        <div className="text-4xl text-center items-center justify-center flex gap-1 flex-col mt-10">
           <h2>Favoritos</h2>
-          <div className="min-w-full px-96 h-96 rounded-full items-center justify-center flex mt-10">
+          <div className="min-w-full px-24 mt-24 2xl:mt-10 h-96 gap-1 rounded-full items-center justify-center flex">
             <Carousel className="min-w-full">
               <CarouselContent className="gap-5 p-10">
                 <CarouselItem className="">
-                  <div className="border bg-black/10 rounded-lg min-w-full min-h-96 gap-2 flex flex-col 2xl:flex-row items-center justify-center">
+                  <div className="border rounded-lg min-w-full min-h-96 p-1 gap-2 flex flex-col 2xl:flex-row items-center justify-center">
                     <div className="relative text-center">
                       <Image
-                        className="blur"
+                        className="blur p-2"
                         alt="foto"
                         src={"/digito.jpg"}
                         width={600}
@@ -119,6 +119,7 @@ export default function Home() {
                       ></Image>
                       <div className="min-w-full h-full absolute top-0 left-0 text-center justify-center flex items-center bg-black/15 rounded ">
                         <a
+                          target="_blank"
                           className="transition hover:underline"
                           href="https://www.bandadigitozero.com.br/"
                         >
@@ -133,7 +134,7 @@ export default function Home() {
                         recursos exclusivos para explorar o universo musical e
                         artístico da banda.
                       </h2>
-                      <a className="mt-4 text-lg text-left">Saiba Mais...</a>
+                      <a className="mt-4 text-lg text-center">Saiba Mais...</a>
                     </div>
                   </div>
                 </CarouselItem>
