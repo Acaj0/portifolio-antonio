@@ -22,7 +22,8 @@ export default function NavBar() {
         >
           Inicio
         </a>
-        <a className="hover:text-gray-500 transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-50">
+        <a
+        href="/Trabalhos" className="hover:text-gray-500 transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-50">
           Trabalhos
         </a>
         <Drawer>
