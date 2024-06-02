@@ -134,7 +134,7 @@ export default function Home() {
                         recursos exclusivos para explorar o universo musical e
                         artístico da banda.
                       </h2>
-                      <a className="mt-4 text-lg text-center">Saiba Mais...</a>
+                      <a href="/DigitoZero" className="mt-4 text-lg text-center border rounded p-2 hover:text-gray-200 transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-50">Saiba Mais</a>
                     </div>
                   </div>
                 </CarouselItem>
@@ -168,7 +168,7 @@ export default function Home() {
                         notificações instantâneas sempre que houver uma citação
                         relevante para você.
                       </h2>
-                      <a className="mt-4 text-lg text-center">Saiba Mais...</a>
+                      <a href="/DiarioAlerta" className="mt-4 text-lg text-center border rounded p-2 hover:text-gray-200 transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-50">Saiba Mais</a>
                     </div>
                   </div>
                 </CarouselItem>
@@ -177,6 +177,9 @@ export default function Home() {
               <CarouselNext />
             </Carousel>
           </div>
+        </div>
+        <div className="mt-10 h-10 w-10">
+
         </div>
       </div>
     </div>
