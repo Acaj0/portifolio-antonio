@@ -28,7 +28,14 @@ export default function NavBar() {
         >
           Trabalhos
         </a>
+        <a
+          href="/orcamento"
+          className="hover:text-blue-500 hover:border px-1 hover:animate-pulse rounded transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-250"
+        >
+        Orçamentos
+        </a>
       </div>
+
       <div>
         <ModeToggle></ModeToggle>
       </div>
