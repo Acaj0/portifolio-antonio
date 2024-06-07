@@ -13,10 +13,11 @@ export default function Home() {
   return (
     <div>
       <NavBar></NavBar>
-      <div className="lg:mx-36 mx-2 flex mt-20 flex-col">
-        <div className=" flex lg:flex-row flex-col min-w-fill">
+      <div className="lg:mx-36 mx-2 flex mt-5 flex-col gap-10">
+        <Separator className="bg-[#6D9886]"></Separator>
+        <div className="mt-15 flex lg:flex-row flex-col min-w-fill">
           <div className=" flex flex-col">
-            <h1 className="text-5xl md:text-left text-center">
+            <h1 className="text-5xl md:text-left text-center ">
               Antonio Carlos de Abreu Junior
             </h1>
             <span className=" mt-4 text-wrap text-center md:text-left text-2xl lg:min-w-fit">
@@ -93,7 +94,7 @@ export default function Home() {
           </div>
           <div className="items-center flex justify-center lg:justify-center mt-24 lg:mt-4 container mx-auto">
             <Image
-              className="rounded-full border-4 border-black/70 dark:border-white/80"
+              className="rounded-full border-4 border-[#6D9886]"
               alt="foto"
               src={"/antonio2.jpeg"}
               width={250}
@@ -101,7 +102,7 @@ export default function Home() {
             ></Image>
           </div>
         </div>
-        <Separator className="mt-36" />
+        <Separator className="mt-10 bg-[#6D9886]" />
         <div className="text-4xl text-center items-center justify-center flex gap-1 flex-col mt-10">
           <h2>Favoritos</h2>
           <div className="min-w-full px-24 mt-24 2xl:mt-10 h-96 gap-1 rounded-full items-center justify-center flex">
@@ -134,7 +135,12 @@ export default function Home() {
                         recursos exclusivos para explorar o universo musical e
                         artístico da banda.
                       </h2>
-                      <a href="/DigitoZero" className="mt-4 text-lg text-center border rounded p-2 hover:text-gray-200 transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-50">Saiba Mais</a>
+                      <a
+                        href="/DigitoZero"
+                        className="mt-4 text-lg text-center border rounded p-2 hover:text-gray-200 transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-50"
+                      >
+                        Saiba Mais
+                      </a>
                     </div>
                   </div>
                 </CarouselItem>
@@ -168,7 +174,12 @@ export default function Home() {
                         notificações instantâneas sempre que houver uma citação
                         relevante para você.
                       </h2>
-                      <a href="/DiarioAlerta" className="mt-4 text-lg text-center border rounded p-2 hover:text-gray-200 transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-50">Saiba Mais</a>
+                      <a
+                        href="/DiarioAlerta"
+                        className="mt-4 text-lg text-center border rounded p-2 hover:text-gray-200 transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-50"
+                      >
+                        Saiba Mais
+                      </a>
                     </div>
                   </div>
                 </CarouselItem>
@@ -178,9 +189,7 @@ export default function Home() {
             </Carousel>
           </div>
         </div>
-        <div className="mt-10 h-10 w-10">
-
-        </div>
+        <div className="mt-10 h-10 w-10"></div>
       </div>
     </div>
   );

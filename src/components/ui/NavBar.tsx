@@ -18,19 +18,19 @@ export default function NavBar() {
       <div className="gap-4 flex flex-row text-2xl">
         <a
           href="/"
-          className="hover:text-gray-500 transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-50"
+          className="hover:text-[#6D9886] transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-50"
         >
           Inicio
         </a>
         <a
           href="/Trabalhos"
-          className="hover:text-gray-500 transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-50"
+          className="hover:text-[#6D9886] transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-50"
         >
           Trabalhos
         </a>
         <a
           href="/orcamento"
-          className="hover:text-blue-500 hover:border px-1 hover:animate-pulse rounded transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-250"
+          className="hover:text-[#6D9886] hover:animate-pulse rounded transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-250"
         >
         Orçamentos
         </a>
