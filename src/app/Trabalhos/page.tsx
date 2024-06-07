@@ -49,7 +49,7 @@ export default function Trabalhos() {
           2
         </div>
         <div className="border-2 rounded-lg items-center flex justify-center">
-          <div className="border rounded-lg min-w-full min-h-96 p-1 gap-2 flex flex-col md:flex-row  2xl:flex-row items-center justify-center">
+          <div className="min-w-full min-h-96 p-1 gap-2 flex flex-col md:flex-row  2xl:flex-row items-center justify-center">
             <div className="relative text-center">
               <Image
                 className="blur p-2"
