@@ -8,9 +8,9 @@ export default function Trabalhos() {
       <div className="flex items-center justify-center mt-10">
         <h1 className="text-2xl">Trabalhos</h1>
       </div>
-      <div className="min-w-max px-1 lg:mx-36 min-h-[550px] grid md:grid-rows-2 grid-rows-4 grid-flow-col gap-4 items center mb-10 mt-10">
-        <div className="border-2 rounded-lg items-center flex justify-center">
-          <div className="p-1 gap-2 flex flex-row items-center justify-center">
+      <div className="min-w-screen px-1 lg:mx-36 min-h-[550px] grid md:grid-rows-2 grid-rows-4 grid-flow-col gap-4 items center mb-10 mt-10">
+        <div className="border-2 rounded-lg items-center flex justify-center p-1">
+          <div className="p-1 gap-2 flex flex-col md:flex-row items-center justify-center">
             <div className="relative text-center">
               <Image
                 className="blur p-2"
@@ -49,7 +49,7 @@ export default function Trabalhos() {
           2
         </div>
         <div className="border-2 rounded-lg items-center flex justify-center">
-          <div className="border rounded-lg min-w-full min-h-96 p-1 gap-2 flex flex-col 2xl:flex-row items-center justify-center">
+          <div className="border rounded-lg min-w-full min-h-96 p-1 gap-2 flex flex-col md:flex-row  2xl:flex-row items-center justify-center">
             <div className="relative text-center">
               <Image
                 className="blur p-2"

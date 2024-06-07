@@ -15,7 +15,7 @@ import { ModeToggle } from "./theme";
 export default function NavBar() {
   return (
     <div className="flex min-w-max px-1 lg:mx-36 mx-2 items-center justify-between h-16">
-      <div className="gap-4 flex flex-row text-2xl">
+      <div className="gap-4 flex flex-row texl-xl md:text-2xl">
         <a
           href="/"
           className="hover:text-[#6D9886] transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-50"

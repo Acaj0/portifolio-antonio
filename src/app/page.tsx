@@ -14,7 +14,6 @@ export default function Home() {
     <div>
       <NavBar></NavBar>
       <div className="lg:mx-36 mx-2 flex mt-5 flex-col gap-10">
-        <Separator className="bg-[#6D9886]"></Separator>
         <div className="mt-15 flex lg:flex-row flex-col min-w-fill">
           <div className=" flex flex-col">
             <h1 className="text-5xl md:text-left text-center ">
@@ -94,7 +93,7 @@ export default function Home() {
           </div>
           <div className="items-center flex justify-center lg:justify-center mt-24 lg:mt-4 container mx-auto">
             <Image
-              className="rounded-full border-4 border-[#6D9886]"
+              className="rounded-full border-4"
               alt="foto"
               src={"/antonio2.jpeg"}
               width={250}
@@ -102,7 +101,7 @@ export default function Home() {
             ></Image>
           </div>
         </div>
-        <Separator className="mt-10 bg-[#6D9886]" />
+        <Separator className="mt-10" />
         <div className="text-4xl text-center items-center justify-center flex gap-1 flex-col mt-10">
           <h2>Favoritos</h2>
           <div className="min-w-full px-24 mt-24 2xl:mt-10 h-96 gap-1 rounded-full items-center justify-center flex">
