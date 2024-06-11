@@ -35,7 +35,7 @@ export default function orcamento() {
             </div>
           </div>
           <div className="border rounded p-10 flex flex-row items-center gap-5 w-[450px]">
-            <div className="w-10 h-10 p-1">
+            <div className="w-16 h-15 p-1">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
                 <path
                   fill="#69b595"
@@ -43,11 +43,13 @@ export default function orcamento() {
                 />
               </svg>
             </div>
-            <h2>Otimização</h2>
-            <h3>SEO, Analytics e Velocidade</h3>
+            <div className="flex flex-col">
+              <h2 className="text-xl">Otimização</h2>
+              <h3 className="text-sm mt-1">SEO, Analytics e Velocidade</h3>
+            </div>
           </div>
           <div className="border rounded p-10 flex flex-row items-center gap-5 w-[450px]">
-            <div className="w-10 h-10 p-1">
+            <div className="w-14 h-14 p-1">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
                 <path
                   fill="#69b595"
@@ -55,10 +57,13 @@ export default function orcamento() {
                 />
               </svg>
             </div>
-            <h2>Responsividade</h2>
+            <div className="flex flex-col">
+              <h2 className="text-xl">Responsividade</h2>
+              <h3 className="text-sm mt-1">Funcionalidade mobile completa</h3>
+            </div>
           </div>
           <div className="border rounded p-10 flex flex-row items-center gap-5 w-[450px]">
-            <div className="w-10 h-10 p-1">
+            <div className="w-20 h-20 p-1">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
                 <path
                   fill="#69b595"
@@ -66,8 +71,12 @@ export default function orcamento() {
                 />
               </svg>
             </div>
-            <h2>Domínio e Hospedagem</h2>
-            <h3>Primeiro ano de dominio e hospedagem inclusas</h3>
+            <div className="flex flex-col">
+              <h2 className="text-xl">Domínio e Hospedagem</h2>
+              <h3 className="text-sm mt-1">
+                Primeiro ano de dominio e hospedagem inclusas
+              </h3>
+            </div>
           </div>
         </div>
       </div>
