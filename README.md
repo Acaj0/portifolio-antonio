@@ -45,12 +45,12 @@ Este site de portfólio foi criado para demonstrar meus projetos de desenvolvime
 
 1. Clone este repositório para o seu ambiente local:
    ```bash
-   git clone https://github.com/seuusuario/seu-repositorio.git
+   git clone https://github.com/Acaj0/portifolio-antonio
    ```
 
 2. Navegue até o diretório do projeto:
    ```bash
-   cd seu-repositorio
+   cd portifolio-antonio
    ```
 
 3. Instale as dependências necessárias:
