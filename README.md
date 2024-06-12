@@ -1,5 +1,3 @@
-Claro! Vou criar um modelo de README para o seu site de portfólio. Aqui está um exemplo detalhado:
-
 ---
 
 # Meu Portfólio
