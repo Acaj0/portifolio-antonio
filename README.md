@@ -95,5 +95,3 @@ Se você tiver alguma dúvida ou sugestão, sinta-se à vontade para entrar em c
 - **LinkedIn:** [Acaj0]([https://linkedin.com/in/seuusuario](https://www.linkedin.com/in/acaj0/))
 
 ---
-
-Espero que este README seja útil para o seu site de portfólio! Sinta-se à vontade para ajustar conforme necessário.
