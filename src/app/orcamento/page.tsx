@@ -16,9 +16,9 @@ export default function orcamento() {
           />
           <div className="flex w-60 h-60 items-center justify-center">2</div>
         </div>
-        <Separator className="w-96 h-[3px] rounded-md mt-10" />
+        <Separator className="max-w-screen md:w-96 h-[3px] rounded-md mt-10" />
         <div className="flex flex-col md:grid md:grid-cols-2 md:grid-rows-2 mt-10 gap-5">
-          <div className="border rounded p-10 flex flex-row items-center gap-5 w-[450px]">
+          <div className="border rounded p-10 flex flex-row items-center gap-5 max-w-screen md:w-[450px]">
             <div className="w-20 h-20 p-1">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                 <path
@@ -34,7 +34,7 @@ export default function orcamento() {
               </h3>
             </div>
           </div>
-          <div className="border rounded p-10 flex flex-row items-center gap-5 w-[450px]">
+          <div className="border rounded p-10 flex flex-row items-center gap-5 max-w-screen md:w-[450px]">
             <div className="w-16 h-15 p-1">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
                 <path
@@ -48,7 +48,7 @@ export default function orcamento() {
               <h3 className="text-sm mt-1">SEO, Analytics e Velocidade</h3>
             </div>
           </div>
-          <div className="border rounded p-10 flex flex-row items-center gap-5 w-[450px]">
+          <div className="border rounded p-10 flex flex-row items-center gap-5 max-w-screen md:w-[450px]">
             <div className="w-14 h-14 p-1">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
                 <path
@@ -62,7 +62,7 @@ export default function orcamento() {
               <h3 className="text-sm mt-1">Funcionalidade mobile completa</h3>
             </div>
           </div>
-          <div className="border rounded p-10 flex flex-row items-center gap-5 w-[450px]">
+          <div className="border rounded p-10 flex flex-row items-center gap-5 max-w-screen md:w-[450px]">
             <div className="w-20 h-20 p-1">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
                 <path
