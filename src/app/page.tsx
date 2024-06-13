@@ -101,11 +101,11 @@ export default function Home() {
             ></Image>
           </div>
         </div>
-        <Separator className="mt-10" />
+        <Separator className="mt-10 max-w-fit" />
         <div className="text-4xl text-center items-center justify-center flex gap-1 flex-col mt-10">
           <h2>Favoritos</h2>
-          <div className="min-w-full px-24 mt-24 2xl:mt-10 h-96 gap-1 rounded-full items-center justify-center flex">
-            <Carousel className="min-w-full">
+          <div className="w-screen px-24 mt-24 2xl:mt-10 h-96 gap-1 rounded-full items-center justify-center flex">
+            <Carousel className="w-72 mt-10 md:mt-0 md:w-[1400px]">
               <CarouselContent className="">
                 <CarouselItem className="">
                   <div className="border rounded-lg min-w-full min-h-96 p-1 gap-2 flex flex-col 2xl:flex-row items-center justify-center">

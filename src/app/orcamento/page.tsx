@@ -3,21 +3,21 @@ import { Separator } from "@/components/ui/separator";
 
 export default function orcamento() {
   return (
-    <div className="">
+    <div className="max-w-fit">
       <NavBar></NavBar>
 
-      <div className="flex items-center mt-10 min-w-screen mx-36 min-h-[800px] flex-col">
+      <div className="flex items-center mt-10 max-w-fit mx-36 min-h-[800px] flex-col">
         <span className="text-2xl">Orçamentos</span>
         <div className="flex flex-row gap-5 mt-5">
-          <div className="flex w-60 h-60 items-center justify-center">1</div>
+          <div className="flex items-center justify-center">1</div>
           <Separator
             orientation="vertical"
             className="h-60 w-[3px] rounded-md"
           />
-          <div className="flex w-60 h-60 items-center justify-center">2</div>
+          <div className="flex items-center justify-center">2</div>
         </div>
         <Separator className="max-w-screen md:w-96 h-[3px] rounded-md mt-10" />
-        <div className="flex flex-col md:grid md:grid-cols-2 md:grid-rows-2 mt-10 gap-5">
+        <div className="flex flex-col md:grid md:grid-cols-2 md:grid-rows-2 mt-10 gap-5 mb-10">
           <div className="border rounded p-10 flex flex-row items-center gap-5 max-w-screen md:w-[450px]">
             <div className="w-20 h-20 p-1">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
