@@ -3,10 +3,9 @@ import { Separator } from "@/components/ui/separator";
 
 export default function orcamento() {
   return (
-    <div className="max-w-fit">
+    <div>
       <NavBar></NavBar>
-
-      <div className="flex items-center mt-10 max-w-fit mx-36 min-h-[800px] flex-col">
+      <div className="flex items-center mt-10 mx-36 min-h-[800px] flex-col">
         <span className="text-2xl">Orçamentos</span>
         <div className="flex flex-row gap-5 mt-5">
           <div className="flex items-center justify-center">1</div>
