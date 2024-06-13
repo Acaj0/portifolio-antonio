@@ -17,7 +17,7 @@ export default function orcamento() {
           <div className="flex w-60 h-60 items-center justify-center">2</div>
         </div>
         <Separator className="w-96 h-[3px] rounded-md mt-10" />
-        <div className="grid grid-cols-2 grid-rows-2 mt-10 gap-5">
+        <div className="flex flex-col md:grid md:grid-cols-2 md:grid-rows-2 mt-10 gap-5">
           <div className="border rounded p-10 flex flex-row items-center gap-5 w-[450px]">
             <div className="w-20 h-20 p-1">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
